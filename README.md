@@ -118,6 +118,12 @@ Migrate migration file if database initialize first time.
   python manage.py migrate
 ```
 
+Create super user to access admin site.
+
+```bash
+  python manage.py createsuperuser
+```
+
 Start the server
 
 ```bash
