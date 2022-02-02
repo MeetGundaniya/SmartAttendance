@@ -111,6 +111,13 @@ Activate virtualenv
   source venv/bin/activate
 ```
 
+Migrate migration file if database initialize first time.
+
+```bash
+  python manage.py makemigrations 
+  python manage.py migrate
+```
+
 Start the server
 
 ```bash
